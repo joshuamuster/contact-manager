@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Title -->
+  <title>Corporate | Unify - Multipurpose Responsive Template</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.ico">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="./assets/css/vendor.min.css">
+
+  <!-- CSS Unify Template -->
+  <link rel="stylesheet" href="./assets/css/theme.min.css?v=1.0">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <!-- Hero -->
+  <div class="shape-container overflow-hidden">
+    <div class="bg-dark position-relative">
+      <div class="container content-space-1 content-space-t-lg-3 content-space-b-md-3 content-space-b-lg-4">
+        <div class="position-relative w-lg-75 text-center mx-lg-auto">
+          <div class="mb-7">
+            <h1 class="text-white">We are coming <span class="text-primary">soon!</span></h1>
+            <p class="lead text-white-70">Currently we are working on our brand new website and will be lunching soon. Do not miss it, subscribe below to keep updated.</p>
+          </div>
+
+          <div class="js-countdown row">
+            <div class="col-3">
+              <h2 class="js-cd-days h1 text-white mb-0"></h2>
+              <h6 class="text-white-70 mb-0">Days</h6>
+            </div>
+            <!-- End Col -->
+
+            <div class="col-3">
+              <h2 class="js-cd-hours h1 text-white mb-0"></h2>
+              <h6 class="text-white-70 mb-0">Hours</h6>
+            </div>
+            <!-- End Col -->
+
+            <div class="col-3">
+              <h2 class="js-cd-minutes h1 text-white mb-0"></h2>
+              <h6 class="text-white-70 mb-0">Mins</h6>
+            </div>
+            <!-- End Col -->
+
+            <div class="col-3">
+              <h2 class="js-cd-seconds h1 text-white mb-0"></h2>
+              <h6 class="text-white-70 mb-0">Secs</h6>
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Shape -->
+    <div class="shape shape-bottom zi-1" style="margin-bottom: -.125rem">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+        <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z"></path>
+      </svg>
+    </div>
+    <!-- End Shape -->
+  </div>
+  <!-- End Hero -->
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== FOOTER ========== -->
+
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- ========== SECONDARY CONTENTS ========== -->
+  <!-- Go To -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
+       "offsetTop": 700,
+       "position": {
+         "init": {
+           "right": "2rem"
+         },
+         "show": {
+           "bottom": "2rem"
+         },
+         "hide": {
+           "bottom": "-2rem"
+         }
+       }
+     }'>
+    <i class="bi-chevron-up"></i>
+  </a>
+  <!-- ========== END SECONDARY CONTENTS ========== -->
+
+  <!-- JS Implementing Plugins -->
+  <script src="./assets/js/vendor.min.js"></script>
+
+  <!-- JS Unify -->
+  <script src="./assets/js/theme.min.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    (function() {
+      // INITIALIZATION OF NAVBAR
+      // =======================================================
+      new HSHeader('#header').init()
+
+
+      // INITIALIZATION OF MEGA MENU
+      // =======================================================
+      const megaMenu = new HSMegaMenu('.js-mega-menu', {
+        desktop: {
+          position: 'left'
+        }
+      })
+
+
+      // INITIALIZATION OF GO TO
+      // =======================================================
+      new HSGoTo('.js-go-to')
+
+
+      // INITIALIZATION OF SWIPER
+      // =======================================================
+      var swiper = new Swiper('.js-swiper-clients',{
+        slidesPerView: 2,
+        breakpoints: {
+          380: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 15,
+          },
+        },
+      });
+    })()
+  </script>
+</body>
+</html>
