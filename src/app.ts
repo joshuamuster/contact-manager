@@ -14,7 +14,7 @@ import {Router, RouterConfiguration} from 'aurelia-router';
       config.options.root = '/';
       config.map([
         { route: '',              moduleId: PLATFORM.moduleName('no-selection'),   title: 'Select'},
-        { route: 'contacts/:id',  moduleId: PLATFORM.moduleName('contact-detail'), name:'contacts' }
+        // { route: 'contacts/:id',  moduleId: PLATFORM.moduleName('contact-detail'), name:'contacts' }
       ]);
   
       this.router = router;
